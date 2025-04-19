@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "start": "node start.js",
-    "fix-deps": "yarn add node-cache baileys @adiwajshing/keyed-db axios chalk fluent-ffmpeg"
+    "fix-deps": "yarn add megajs jimp@latest link-preview-js@latest eslint@latest"
   },
   "keywords": [
     "Whatsapp Bot By EMMY HENZ"
@@ -16,6 +16,7 @@
   "dependencies": {
     "node-cache": "^5.1.2",
     "baileys": "^6.7.16",
+    "megajs": "^1.1.4",
     "@adiwajshing/keyed-db": "^0.2.4",
     "axios": "^1.6.2",
     "chalk": "^5.3.0",
@@ -40,7 +41,7 @@
     "yt-search": "^2.10.4"
   },
   "devDependencies": {
-    "eslint": "^8.56.0",
+    "eslint": "^9.0.0",
     "typescript": "^5.3.2"
   },
   "engines": {
